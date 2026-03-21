@@ -6,7 +6,7 @@ jobs:
         runs-on: ubuntu-latest
 
         env:
-          VM_NAME: vm-services-seed
+          VM_NAME: vm-service-seed
           INSTANCE_GROUP_NAME: mig-services
           INSTANCE_TEMPLATE: temp-vm-services-seed-v1
           ZONE: asia-southeast1-a
