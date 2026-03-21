@@ -59,7 +59,7 @@ jobs:
 
           - name: Update the instance group with the new image
             run: |
-                  gcloud compute instance-groups managed rolling-action replace mig-platform \
+                  gcloud compute instance-groups managed rolling-action replace ${{env.INSTANCE_GROUP_NAME}} \
                   --region=${{env.REGION}} \
                   --max-unavailable=0 \
                   --replacement-method=substitute \
