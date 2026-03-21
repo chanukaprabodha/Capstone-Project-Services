@@ -12,7 +12,7 @@ jobs:
           ZONE: asia-southeast1-a
           REGION: asia-southeast1
           USER_NAME: ckprabodha
-          IMAGE_NAME: vm-service-seed-boot-image
+          IMAGE_NAME: vm-services-seed-boot-image
 
 
         permissions:
